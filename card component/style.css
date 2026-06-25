@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    align-items: stretch;
+}
+.sedan-card {
+    height: 400px;
+    padding: 3rem;
+    background: #e38826;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.suv-card {
+    height: 400px;
+    padding: 3rem;
+    background:#006970;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.luxury-card {
+    height: 400px;
+    padding: 3rem;
+    background: #004241;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{
+    width: 40px;
+    height: 20px;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+p{
+    color: white;
+    line-height: 1.6; 
+    margin-bottom: 2px;
+}
+
+.sedan-card button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 400;
+}
+.sedan-card button:hover{
+    color: orange;
+    background: white;    
+}
+
+.suv-card button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 400;
+}
+.suv-card button:hover{
+    color: teal;
+    background: white;
+    
+}
+
+.luxury-card button{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 400;
+}
+.luxury-card button:hover{
+    color: rgb(27, 61, 27);
+    background: white;
+}
